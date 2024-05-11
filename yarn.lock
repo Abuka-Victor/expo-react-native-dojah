@@ -852,13 +852,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@koale/useworker@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@koale/useworker/-/useworker-4.0.2.tgz#cb540a2581cd6025307c3ca6685bc60748773e58"
-  integrity sha512-xPIPADtom8/3/4FLNj7MvNcBM/Z2FleH85Fdx2O869eoKW8+PoEgtSVvoxWjCWMA46Sm9A5/R1TyzNGc+yM0wg==
-  dependencies:
-    dequal "^1.0.0"
-
 "@react-native-community/eslint-config@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-config/-/eslint-config-2.0.0.tgz#35dcc529a274803fc4e0a6b3d6c274551fb91774"
@@ -1683,11 +1676,6 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-dequal@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/dequal/-/dequal-1.0.1.tgz#dbbf9795ec626e9da8bd68782f4add1d23700d8b"
-  integrity sha512-Fx8jxibzkJX2aJgyfSdLhr9tlRoTnHKrRJuu2XHlAgKioN2j19/Bcbe0d4mFXYZ3+wpE2KVobUVTfDutcD17xQ==
-
 detect-newline@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
@@ -2067,12 +2055,11 @@ expect@^26.4.2:
     jest-message-util "^26.3.0"
     jest-regex-util "^26.0.0"
 
-expo-camera@^13.4.2:
-  version "13.4.2"
-  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.4.2.tgz#858de25720e5de4b21c43107fa5c926a021a2f0f"
-  integrity sha512-3G4ahx0pF56PyYixFlU39jrZof6I9XtBzizGObKN6ZKjSgCqqL0tjsrlDrCn44ZwSY4SngsMJmWR9JQDkKx2WA==
+expo-camera@~15.0.6:
+  version "15.0.6"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-15.0.6.tgz#cc84bbb466ad0ae89fdf2720e69aeeef4c673d3c"
+  integrity sha512-UtCCiHSHHjyapF0M3iPyVpj6aP60UNEJQs1lLStCz/Zhgs99SrDurhC9TxhsZC81EnV0aT5PmcXu/GTY8tcftg==
   dependencies:
-    "@koale/useworker" "^4.0.2"
     invariant "^2.2.4"
 
 expo-location@^16.1.0:
